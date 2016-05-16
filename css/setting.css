@@ -1,0 +1,20 @@
+@keyframes slideOutLeft{
+	to{
+		transform: rotateX(-100%);
+	}
+}
+@keyframes slideOutRight{
+	from{
+		transform: rotateX(100%);
+	}
+	to{
+		transform: rotateX(0%);
+	}
+}
+
+.setting{
+	animation: slideOutRight 0.5s both ease-in;
+}
+.setting-child{
+	animation: slideOutLeft 0.5s both ease-in;
+}

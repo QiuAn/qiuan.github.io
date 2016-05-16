@@ -1,0 +1,17 @@
+<header class="mui-bar mui-bar-nav">
+	<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	<h1 class="mui-title">{{title}}</h1>
+</header>
+<div  class="mui-content">
+	<ul class="mui-table-view">
+		<li class="mui-table-view-cell mui-media" ng-repeat="act in activities">
+			<a href="javascript:;">
+				<img class="mui-media-object mui-pull-left" src="{{act.img}}">
+				<div class="mui-media-body">
+					{{act.title}}
+					<p class='mui-ellipsis'>{{act.content}}</p>
+				</div>
+			</a>
+		</li>
+	</ul>
+</div>
