@@ -95,4 +95,5 @@ function init() {
     $(".m-kv,.js-kv-slide").height(h_height);
     $(".m-kv,.js-kv-slide").width(h_width);
     $(".m-kv-caption").css("top", top_halfheight);
+
 }
